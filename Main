@@ -420,7 +420,6 @@ public class SnakesAndLadder extends JFrame {
 
     // ==================== MAIN ====================
 
-    // BUG FIX 6: main() now correctly instantiates SnakesAndLadder (no-arg constructor).
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new SnakesAndLadder().setVisible(true));
     }
